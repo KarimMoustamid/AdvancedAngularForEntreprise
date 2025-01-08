@@ -1,13 +1,91 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
 # Rider ignored files
 /modules.xml
 /projectSettingsUpdater.xml
 /contentModel.xml
 /.idea.AdvancedAngularForEntreprise.iml
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# User-specific files and folders
+.idea/
+.idea/*
+!.idea/workspace.xml
+!.idea/modules.xml
+!.idea/misc.xml
+!.idea/runConfigurations/
+*.iml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular-specific ignored files
+/dist/
+/.out-tsc/
+/node_modules/
+coverage/
+
+# Angular build output
+/build/
+
+# Browsers sync configuration
+.browserlistrc
+
+# Environment files (sensitive information)
+**/environment*.ts
+
+# Angular CLI cache
+.angular/cache/
+
+# Node-related ignored files
+package-lock.json
+yarn.lock
+
+# Temporary files
+.DS_Store
+Thumbs.db
+.idea/
+
+# OS-specific ignored files
+*.swp
+*~
+.vscode/
+*.code-workspace
+
+# Output of code analysis tools
+/.eslintcache
+/.stylelintcache
+
+# Dependency and package managers
+/node_modules/
+
+# Build files
+/build/
+.tmp/
+*.out
+*.exe
+
+# IDE specific folders
+.idea/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+/.vscode/
+/*.iml
+
+# Test-related files
+/coverage/
+/.e2e/
