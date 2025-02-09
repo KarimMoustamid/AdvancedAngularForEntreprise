@@ -5,13 +5,14 @@ import {IUser} from "../services/user.model";
   selector: 'account-menu',
   styleUrls: ['../styles/account-menu.css'],
   template: `
-    <div class="account">
+    <div class="account componentBorders">
     <span class="welcome" *ngIf="user">
+      Welcome {{user.firstName}}
     </span>
     </div>`
 })
 export class AccountMenuComponent {
-  // REMEMBER : I am here
-  @Input() user;
+
+  @Input() user: IUser | null = null;
 
 }

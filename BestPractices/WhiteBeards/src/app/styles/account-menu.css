@@ -41,3 +41,7 @@ a {
 a:hover {
   color: #fff;
 }
+
+.componentBorders {
+  border: 1px solid red;
+}
